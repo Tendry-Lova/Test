@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soavadia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  </head>
+
+  <body>
+    <header class="navbar">
+      <img src="image/logo.png" class="logo" alt="logo">
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#">Acceuil</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">A propos de nous</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <img
+          src="./image/icons8-menu-1600.png"
+          alt="menu hamburger"
+          class="menu-hamburger"
+        />
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+        <h1>Bienvenue</h1>
+        <p>
+          Bienvenue chez SOAVADIA, votre porte d'entrée vers des voyages
+          inoubliable ! Que vous rêvez d'évasion, d'aventure ou de détente,
+          notre équipe est là pour transformer vos envies en réalité. Avec notre
+          expertise et notre passion du voyage, nous vous accompagnons à chaque
+          étape pour vous offrir des expériences uniques et sur mesure.
+          Préparez-vous à découvrir le monde autrement, sans souci et en toute
+          sécurité. Votre prochaine destination.
+        </p>
+        <button type="button">Explorer</button>
+      </div>
+      <div class="card-container">
+        <div class="card card1">
+          <h5>Majunga</h5>
+          <button>Visiter</button>
+        </div>
+        <div class="card card2">
+          <h5>Nosy Be</h5>
+          <button>Visiter</button>
+        </div>
+        <div class="card card3">
+          <h5>Sainte Marie</h5>
+          <button>Visiter</button>
+        </div>
+        <div class="card card4">
+          <h5>Tamatave</h5>
+          <button>Visiter</button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script>
+    const menuHamburger = document.querySelector(".menu-hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuHamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("mobile-menu");
+    });
+  </script>
+</html>

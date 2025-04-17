@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px;
+}
+
+p {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+body {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url(image/pic-2.jpg);
+  background-attachment: fixed; /* pour fixer l'arrière plan */
+  background-position: center;
+  background-size: cover;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 0.5%; /* pour qu'il y a un peut d'espacement en haut */
+}
+
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+
+.navbar .menu-hamburger {
+  display: none;
+  width: 35px;
+  position: absolute;
+  top: 6%; /* 70px en % pour s'a dapter a chaque écran */
+  right: 25%; /* 70px en % pour s'a dapter a chaque écran */
+  cursor: pointer;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.navbar .nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  font-family: "Courier New", Courier, monospace;
+  transition: transform 0.2s;
+}
+
+ul li:hover {
+  transform: translateY(-5px);
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fcffff;
+  text-transform: uppercase;
+  margin: 10px;
+  font-weight: bold;
+  transition: 0.6s ease;
+  outline: none;
+}
+
+ul li a:hover {
+  color: #32149e; /* trop foncée */
+  transition: all 0.3s ease;
+}
+
+button {
+  width: 100px; /* largeur un peut plus petit */
+  height: auto; /* hauteur qui depend du largeur */
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #fff;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+
+main {
+  display: flex; /* Utilise un conteneur flexbox pour aligner les éléments enfants horizontalement */
+  gap: 20px; /* Ajoute un espacement de 20px entre les éléments enfants */
+  align-items: flex-start; /* Aligne les éléments enfants au début de l'axe vertical */
+  width: 100%; /* Définit la largeur du conteneur à 100% de son parent */
+  box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur et la hauteur totales */
+  margin-top: 2%;
+}
+
+.content {
+  flex: 1; /* Permet à cet élément de prendre une part égale de l'espace disponible dans le conteneur flex */
+}
+
+.card-container {
+  flex: 1; /* Permet à cet élément de prendre une part égale de l'espace disponible dans le conteneur flex */
+}
+
+.card {
+  border-radius: 10px;
+  padding: 15px 25px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  transition: transform 0.5s;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* Colonnes adaptatives */
+  gap: 20px;
+  width: 100%;
+  margin-right: 0;
+}
+
+.card-container .card button {
+  /* Positionne le bouton de manière absolue par rapport à son conteneur parent */
+  position: absolute;
+  /* Place le bouton à 70% de la hauteur du conteneur */
+  top: 70%;
+  /* Centre horizontalement le bouton par rapport au conteneur */
+  left: 50%;
+  /* Ajuste la position pour que le bouton soit parfaitement centré */
+  transform: translate(-50%, -50%);
+}
+
+h5 {
+  top: 5%;
+  left: 5%;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 5px;
+}
+
+.card1 {
+  background-image: url(image/pic.jpg);
+  position: relative;
+}
+
+.card2 {
+  background-image: url(image/pic-2.jpg);
+  position: relative;
+}
+
+.card3 {
+  background-image: url(image/pic-3.jpg);
+  position: relative;
+}
+
+.card4 {
+  background-image: url(image/pic-4.jpg);
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+h5 {
+  top: -30%;
+  color: rgb(7, 7, 7);
+  font-family: Arial, sans-serif;
+}

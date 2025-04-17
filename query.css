@@ -1,0 +1,37 @@
+@media screen and (max-width: 480px) {
+  /* Style pour les smartphones */
+
+  main {
+    display: flex; /* Utilise un conteneur flexbox pour aligner les éléments enfants horizontalement */
+    flex-direction: column;
+    gap: 10px; /* Ajoute un espacement de 20px entre les éléments enfants */
+    width: 100%; /* Définit la largeur du conteneur à 100% de son parent */
+    box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur et la hauteur totales */
+    margin-top: 2%;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Colonnes adaptatives */
+    gap: 20px;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .content button {
+    display: block; /* L'élément occupe toute la largeur disponible de son conteneur parent, ce qui le place sur une nouvelle ligne */
+    margin: 25px auto; /* "auto" cela permet de centrer l'élément horizontalement dans son conteneur */
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Styles pour les tablettes */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles pour les ordinateurs portables */
+}
+
+@media screen and (min-width: 1025px) {
+  /* Styles pour les grands écrans */
+}
