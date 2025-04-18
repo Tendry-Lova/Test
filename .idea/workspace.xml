@@ -33,6 +33,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -49,6 +50,25 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/naalpv/project/school/friend/tendry",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+>>>>>>> 3e2881d6206c8eb595f0fa3780c8de6f785f342d
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,8 +96,13 @@
       <workItem from="1744694238389" duration="200000" />
       <workItem from="1744900857152" duration="2830000" />
       <workItem from="1744916198481" duration="1596000" />
+<<<<<<< HEAD
       <workItem from="1744918243108" duration="292000" />
       <workItem from="1744994943541" duration="300000" />
+=======
+      <workItem from="1744918243108" duration="2216000" />
+      <workItem from="1744988566119" duration="331000" />
+>>>>>>> 3e2881d6206c8eb595f0fa3780c8de6f785f342d
     </task>
     <servers />
   </component>
